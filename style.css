@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+.partners {
+    width: 1158.98px;
+    height: 370px;
+    margin: 0 auto;
+
+}
+
+.partnet__title {
+    text-transform: uppercase;
+    color: #74C69D;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin-top: 16px;
+    font-family: 'Crimson Text', serif;
+}
+
+.lorem {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 30px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.brauzer {
+    width: 1158.98px;
+    height: 50px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners__button {
+    width: 170px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    font-size: 20px;
+    margin-top: 58px;
+    margin-left: 500px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box {
+    width: 1180px;
+    height: 431.43px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    margin-left: 590px;
+    margin-top: -431.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.group {
+    width: 100%;
+    height: 100%;
+}
+
+.child {
+    width: 458px;
+    height: 280px;
+    margin-left: 50px;
+
+}
+
+h2 {
+    font-family: 'Crimson Text';
+    font-size: 40px;
+}
+
+.child__title {
+    margin-top: 16px;
+    font-size: 15px;
+    font-family: 'Work Sans';
+    line-height: 19px;
+    margin-top: 30px;
+}
+
+.child__button {
+    width: 170px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 50px;
+}
+
+.box2 {
+    width: 1180px;
+    height: 565.73px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.left2 {
+    width: 50%;
+    height: 100%;
+    padding: 1px;
+ 
+}
+
+.right2 {
+    width: 50%;
+    height: 100%;
+    margin-left: 590px;
+    margin-top: -565.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.people {
+    width: 100%;
+    height: 100%;
+}
+
+.child2 {
+    width: 458px;
+    height: 280px;
+    margin-top: 150px;
+}
+
+@media(max-width:1200px) {
+
+
+    .partners {
+      width: 1000px;
+     margin: 0 auto;
+    }
+
+
+    .brauzer {
+        width: 900px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px 180px;
+    }
+
+    .partners__button {
+        margin-left: 440px;
+        margin-top: 30px;
+    }
+
+    .box {
+        width: 980px;
+        height: 400px;
+        margin-top: 150px;
+    }
+  .right{
+    margin-left: 490px;
+    margin-top: -400px;
+    background-color: none;
+  }
+
+
+
+    .child {
+        margin-left:60px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .child__title {
+        font-size: 13px;
+    }
+
+    .child__button {
+        font-size: 15px;
+
+    }
+
+    .box2 {
+        width: 980px;
+        height: 430px;
+        margin-top: 80px;
+    }
+
+    .left2 {
+        height: 100%;
+
+    }
+
+    .right2 {
+        height: 100%;
+        margin-left: 490px;
+        margin-top: -430px;
+    }
+
+    .child2 {
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+
+
+}
+
+@media(max-width:1024px) {
+.partners{
+    width: 850px;
+}
+.brauzer{
+    width: 800px;
+    margin: 0 auto 0 0 30px;
+
+}
+.partners__img{
+    width: 140px;
+    height: 40px;
+}
+.book{
+    height: 30px;
+}
+.microsoft{
+    height: 30px;
+}
+    .partners__button {
+    margin-left: 330px;
+    }
+
+    .box {
+     width: 800px;
+     height: 330px;
+    margin-left: 85px;
+     margin: 0 auto;
+     margin-top: 100px;
+     
+    }
+.right{
+margin-left: 400px;
+margin-top: -330px;
+}
+
+
+
+    .child {
+        width: 440px;
+        margin-top: 50px;
+        margin-left: 30px;
+      
+    }
+h2{
+    font-size: 25px;
+}
+.child__title{
+    font-size: 12px;
+}
+.child__button{
+    margin-top: 40px;
+}
+    .box2 {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+ 
+    }
+
+.right2{
+    margin-left: 400px;
+    margin-top: -400px;
+}
+
+.child2{
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+
+}
+
+
+
+@media(max-width:864px) {
+.partners{
+    width: 760px;
+    margin:0 auto;
+}
+.brauzer {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+   gap:50px 90px;
+   
+   }
+   .partners__button {
+       width: 140px;
+       height: 39px;
+       font-size: 12px;
+       margin-left: 315px;
+   }
+   .partners__img{
+    width: 140px;
+    height: 40px;
+}
+.microsoft{
+    height: 30px;
+}
+.book{
+    height: 30px;
+}
+ 
+.box{
+    width: 720px;
+    height: 300px;
+
+}
+
+.right{
+    margin-left: 360px;
+    margin-top: -300px;
+    background-color: none;
+
+}
+
+.child{
+height: 200px;
+margin-left: 30px;
+margin-top: 10px;
+
+}
+h2{
+    font-size: 20px;
+}
+.child__title{
+    font-size: 10px;
+}
+.child__button{
+    width: 130px;
+    height: 38px;
+    font-size: 12px;
+    margin-top: 30px; 
+}
+
+.box2{
+width: 720px;
+height: 330px;
+}
+.child2{
+    margin-top: 73px;
+}
+.right2{
+    margin-left: 360px;
+    margin-top: -330px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+
+.partners{
+    width: 658px;
+   
+}
+
+.brauzer {
+ width: 628px;
+gap:40px 70px;
+
+}
+.partners__button {
+    width: 140px;
+    height: 39px;
+    font-size: 12px;
+    margin-left: 257px;
+}
+
+
+.partners__img{
+    width: 140px;
+    height: 40px;
+}
+.microsoft{
+    height: 30px;
+}
+.book{
+    height: 30px;
+}
+ 
+.box{
+    width: 638px;
+    height: 280px;
+
+}
+.right{
+    margin-left: 319px;
+    margin-top: -280px;
+    background-color: none;
+}
+
+.child{
+margin-left: 30px;
+}
+h2{
+    font-size: 20px;
+}
+.child__title{
+    font-size: 9px;
+}
+.child__button{
+    width: 130px;
+    height: 38px;
+    font-size: 12px;
+    margin-top: 30px; 
+}
+
+.box2{
+width: 638px;
+height: 300px;
+
+}
+.child2{
+    width: 280px;
+    height: 215px;
+    margin-top: 53px;
+}
+
+.right2{
+    margin-left: 319px;
+    margin-top: -300px;
+}
+
+}
+
+
+
+
+
+@media(max-width:658px){
+    .partners{
+        width: 560px;
+    }
+    h1{
+        font-size: 28px;
+    }
+  .lorem{
+    font-size: 15px;
+  }
+    .brauzer{
+        width: 560px;
+    }
+    .partners__button {
+        width: 140px;
+        height: 39px;
+        font-size: 12px;
+        margin-left: 227px;
+    }
+    
+    
+    .partners__img{
+        width: 140px;
+        height: 40px;
+    }
+    .microsoft{
+        height: 30px;
+    }
+    .book{
+        height: 30px;
+    }
+     
+    .box{
+        width: 543px;
+        height: 230px;
+
+    
+    }
+   
+    .right{
+        margin-left: 271px;
+        margin-top: -230px;
+        background-color: none;
+    }
+    
+    .child{
+    margin-left: 20px;
+    }
+    h2{
+        font-size:18px;
+    }
+    .child__title{
+        font-size: 8px;
+    }
+    .child__button{
+        width: 100px;
+        height: 32px;
+        font-size: 12px;
+        margin-top: 30px; 
+    }
+    
+    .box2{
+    width: 543px;
+    height: 250px;
+    }
+    .child2{
+        width: 250px;
+        height: 185px;
+        margin-top: 33px;
+
+    }
+    
+    .right2{
+        margin-left: 271px;
+        margin-top: -250px;
+    }
+    
+
+}
+
+
+
+
+
+
+@media(max-width:568px){
+
+    .partners{
+        width: 568px;  
+    }
+    .partnet__title {
+        font-size: 12px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    .lorem{
+        font-size: 15px;
+    }
+    .brauzer{
+        width: 568px;
+    }
+    
+    .partners__img{
+        width: 110px;
+        height: 32px;   
+    }
+    .book{
+        width: 100px;
+        height: 24px;
+    }
+    .microsoft{
+    width: 100px;
+    height: 24px;
+    }
+    
+    .partners__button{
+    margin-left: 210px;
+    }
+    .box{
+        width: 510px;
+        height: 210px;
+        margin-left: 30px;
+    
+    }
+    
+    .right{
+        margin-left: 255px;
+        margin-top: -210px;
+    }
+    .child{
+        width: 200px;
+        height: 150px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    
+    h2{
+        font-size: 16px;
+    }
+    .child__title{
+        font-size: 8px;
+        line-height: 11px;
+        margin-top: 14px;
+    }
+    .child__button{
+        width: 80px;
+        height: 27px;
+        font-size: 8px;
+    }
+    .box2{
+        width: 513px;
+        height: 260px;
+    }
+    
+    .right2{
+        margin-left: 257px;
+        margin-top: -260px;
+    }
+    
+    }
+    
+    @media(max-width:375px){
+.partners{
+    width: 335px;
+    height: 711px;
+}
+.brauzer{
+    width: 300px;
+    height: 500px;
+}
+h1{
+    font-size: 16px;
+}
+.partnet__title{
+    font-size: 24px;
+}
+.lorem{
+    font-size: 20px;
+}
+.partners__img{
+    width: 150px;
+height: 49.14px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center ;
+}
+.microsoft{
+    width: 200px;
+height: 42.68px;
+}
+
+.book{
+    width: 190px;
+height: 36.77px;
+}
+.partners__button{
+    width: 170px;
+    height: 48px;
+    margin-left: 90px;
+}
+
+.box{
+    width: 335px;
+height: 513.88px;
+margin: 0 auto;
+margin-top: 130px;
+}
+
+.left{
+    width: 100%;
+    height: 50%;
+
+}
+
+.right{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+.child{ 
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.child__title{
+    font-size: 12px;
+    color: rgba(0, 0, 0,0.5);
+    line-height: 16px;
+    text-align: center;
+}
+.child__button{
+ width: 170px;
+height: 48px;
+font-size: 20px;
+margin-left: 100px;
+}
+.childbutton{
+    margin-left: 80px;
+}
+
+.box2{
+    width: 335px;
+    height: 280.87px;
+
+}
+.left2{
+    width: 100%;
+    height: 50%;
+    margin-top: 360px;
+
+}
+.right2{
+    width: 100%;
+    height: 95%;  
+    margin: 0;
+    margin-top: -400px;
+}
+.child2{
+    width: 110%;
+    margin-left:-20px;
+}
+
+
+
+    }
+
+
+
